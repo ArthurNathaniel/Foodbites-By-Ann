@@ -1,0 +1,156 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Mtn";
+}
+
+body {
+  font-family: "Mtn";
+  background-color: #f2f4f6;
+}
+
+@font-face {
+  font-family: "Mtn";
+  src: url("./mtn.ttf") format("truetype");
+  font-weight: 400;
+}
+
+
+.navbar_all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 10%;
+    position: sticky;
+    top: 0;
+    z-index: 454;
+    padding-block: 5px;
+    width: 100%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.logo {
+    height: 95px;
+    width: 200px;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.mobile a {
+    padding: 15px;
+    color: #000;
+    /* text-transform: uppercase; */
+}
+
+.mobile a:hover {
+    color: #760102;
+}
+
+#toggleButton {
+
+    background-color: transparent;
+    border: none;
+}
+
+#toggleButton i{
+    color:#760102;
+    font-size: 20px;
+}
+
+.mobile {
+    display: none;
+}
+
+.mobile {
+    position: absolute;
+    top: 106px;
+    z-index: 4554;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    height: 100vh;
+}
+
+.mobile a {
+    /* border-bottom: 2px dashed #760102; */
+    width: 100%;
+    padding: 0 10%;
+    padding-block: 20px;
+    text-align: center;
+}
+
+
+.menu_bg{
+    background-image: url(../images/bg.jpg);
+    background-size: contain;
+    height: 100%;
+    background-repeat:repeat-y
+   
+}
+
+
+.title h1{
+    text-align: center;
+    margin-block: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #21402A;
+    
+}
+
+.menu_list{
+    padding: 0 10%;
+    padding-bottom: 50px;
+}
+
+.menu_title h1{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.menu_list h1{
+    color: #fff;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.menu_list h3{
+    color: #fff;
+font-weight: 300;
+margin-top: 7px;
+}
+
+.menu_list p{
+    color: #fff;
+    margin-top: 10px;
+ 
+    font-weight: 700;
+}
+.map{
+    padding: 0 10%;
+    padding-top: 50px;
+}
+.map iframe{
+    width: 100%;
+    margin-top: 35px;
+}
+
+footer{
+    width: 100%;
+    background-color:#760102;
+    padding-block: 40px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
